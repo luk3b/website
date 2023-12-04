@@ -10,3 +10,7 @@ script tag looks like without the type attribute:
  <script src="lounge.js"></script>
 
 JavaScript interacts with your page through the DOM.
+
+A JavaScript API is an “Application Programming Interface.” 
+APIs make it possible to control all aspects of HTML5, 
+like 2D drawing, video playback, and more.
