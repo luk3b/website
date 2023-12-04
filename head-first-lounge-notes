@@ -8,3 +8,5 @@ JavaScript is now the standard and default scripting language, so you can
 remove the type attribute from your script tags too. Here’s what the new
 script tag looks like without the type attribute:
  <script src="lounge.js"></script>
+
+JavaScript interacts with your page through the DOM.
