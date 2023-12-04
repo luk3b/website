@@ -1,1 +1,10 @@
+Document Object Model or the browser creates an object
+the DOM for short. 
 
+Using JavaScript, you can interact with your
+page by manipulating the DOM,
+
+JavaScript is now the standard and default scripting language, so you can
+remove the type attribute from your script tags too. Here’s what the new
+script tag looks like without the type attribute:
+ <script src="lounge.js"></script>
