@@ -25,3 +25,7 @@ but also by using a letter (small or uppercase),
 an underscore character or a dollar sign.
 example:
 var thisIsNotaJoke; var _myvariable; var $importantvar;
+
+Numeric expressions
+(9 / 5) * tempC + 32 x-1
+Math.random() * 10 2.123 + 3.2
