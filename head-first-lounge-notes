@@ -14,3 +14,8 @@ JavaScript interacts with your page through the DOM.
 A JavaScript API is an “Application Programming Interface.” 
 APIs make it possible to control all aspects of HTML5, 
 like 2D drawing, video playback, and more.
+
+The <script> and </script> tags surround the
+JavaScript code. They tell the page that what’s
+in them is JavaScript, not HTML. 
+which basically seperates the Javascript code from HTML code
