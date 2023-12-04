@@ -19,3 +19,9 @@ The <script> and </script> tags surround the
 JavaScript code. They tell the page that what’s
 in them is JavaScript, not HTML. 
 which basically seperates the Javascript code from HTML code
+
+not just by making them meaningful, 
+but also by using a letter (small or uppercase), 
+an underscore character or a dollar sign.
+example:
+var thisIsNotaJoke; var _myvariable; var $importantvar;
