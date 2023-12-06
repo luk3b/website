@@ -29,3 +29,5 @@ var thisIsNotaJoke; var _myvariable; var $importantvar;
 Numeric expressions
 (9 / 5) * tempC + 32 x-1
 Math.random() * 10 2.123 + 3.2
+
+Variables are containers for holding values.
