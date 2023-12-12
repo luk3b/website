@@ -3,10 +3,10 @@ body {
   }
   h1 {
     text-align: center;
-    color: orange;
+    color: 	#000000;
   }
   a, a:visited {
-    color: tomato;
+    color: 	#000000;
     text-decoration: none;
   }
   main {
@@ -15,7 +15,7 @@ body {
     grid-template-rows: auto;
     column-gap: 4vw;
     padding: 2vw;
-    border: 1px dotted #777;
+    border: 1px dotted 	#000000;
   }
   footer {
     text-align: center;
