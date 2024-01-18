@@ -5,14 +5,14 @@
         <title>Optional Lab 6-1</title>
         <script>
             function vote() {
-                var t = "Your favorite sport is: ";
+                var t = "Your favorite videogame is: ";
                 for (i = 0; i < document.myform.sports.length; i++) {
                     if (document.myform.sports[i].checked == true) {
                         t = t + document.myform.sports[i].value;
                     }
                 }
-                if (t == "Your favorite sport is: ") {
-                    document.getElementById("txt").value = "Choose a sport";
+                if (t == "Your favorite videogame is: ") {
+                    document.getElementById("txt").value = "Choose a videogame";
                 } else {
                     document.getElementById("txt").value = t;
                     document.getElementById("txt1").value = t;
@@ -37,13 +37,13 @@
         <h4>Event Handler Examples</h4>
         Vote for your favorite Video Game:
         <form name="myform">
-            <input type="radio" name="Video Games" value="Pong" />Pong<br/>
-            <input type="radio" name="Video Games" value="Tetris" />Tetris<br/>
-            <input type="radio" name="Video Games" value="Pac Man" />Pac Man<br/>
-            <input type="radio" name="Video Games" value="Snake" />Snake<br/>
-            <input type="radio" name="Video Games" value="Space Invaders" />Space Invaders<br/>
-            <input type="radio" name="Video Games" value="Galaga" />Galaga<br/>
-            <input type="radio" name="Video Games" value="Centipede" />Centipede<br/>
+            <input type="radio" name="videogame" value="Pong" />Pong<br/>
+            <input type="radio" name="videogame" value="Tetris" />Tetris<br/>
+            <input type="radio" name="videogame" value="Pac Man" />Pac Man<br/>
+            <input type="radio" name="videogame" value="Snake" />Snake<br/>
+            <input type="radio" name="videogame" value="Space Invaders" />Space Invaders<br/>
+            <input type="radio" name="videogame" value="Galaga" />Galaga<br/>
+            <input type="radio" name="videogame" value="Centipede" />Centipede<br/>
             <p><input type="button" value="VOTE" onclick="vote()" /> <input type="reset" value="RESET" /></p>
             <p><input type="text" id="txt" size="40" onblur="upperCase()" /> Click in then out!</p>
             <p><input type="text" id="txt1" size="40" onmouseover="SayHello()" /> Hover over this field!</p>
