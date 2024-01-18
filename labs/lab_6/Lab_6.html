@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"> 
+<title>Luke Lab6-1</title>
+<script>
+function init() {
+  var loc = window.location.href;
+  var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+  var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                        loc + '?profile=css3';
+  document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+  document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+}
+window.onload = init;
+</script>
+</head>
+<body>
+  
+<main>
+<section>
+<h1>Lesson 6 Labs</h1>
+<ul>
+   <li><a href="Optional_Lab6-1.html">Optional lab 6-1</a></li>
+   <li><a href="Op_Lab6-2.html">Optional lab 6-2</a></li>   
+   <li><a href="Op_Lab6-3.html">Optional lab 6-3</a></li>
+   <li><a href="lab6-1.html">Lab 6-1</a></li>
+  <li><a href="lab6-3.html">Lab 6-3</a></li>
+</ul>
+</section>
+</main>
+
+<p>
+VERIFY WEBSITE ON:
+</p>
+<p>
+<a id="vLink1"><strong> HTML </strong> Valid! </a> |
+<a id="vLink2"><strong> CSS </strong> Valid! </a>
+</p>
+   </body>
+   </html>
+      
