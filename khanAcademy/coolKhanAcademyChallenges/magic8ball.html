@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <title>Canvas Three</title>
+  <script>
+      function init() {
+      var loc = window.location.href;
+      var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+      var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                            loc + '?profile=css3';
+      document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+      document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+      }
+      window.onload = init;
+  </script>
+</head>
+  <h1>Magic 8 ball</h1>
+
+<script> 
+fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(227, 45, 247);
+triangle(200, 104, 280, 280, 120, 280);
+fill(255, 255, 255);
+mouseOver = function() {
+var answer = floor(random(1, 5));
+if (answer > 0) {
+    text("NOT YET", 176, 200);
+    text("IMPLEMENTED", 159, 229); 
+}
+ 
+if (answer === 1) {    
+    fill(115, 0, 255);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(255, 255, 255);
+    text("Impossible", 170, 229); 
+}
+else if (answer === 2) {    
+    fill(255, 208, 0);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+    text("MAYBE", 176, 220);
+}
+else if (answer === 3) {    
+    fill(26, 255, 0);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+    text("There", 180, 200);
+    text("is a chance", 170, 229); 
+}
+else if (answer === 4) {    
+    fill(0, 162, 255);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(255, 255, 255);
+    text("DEFINITELY YES", 153, 220);
+}
+else {    
+    fill(255, 0, 0);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(255, 255, 255);
+    text("DEFINITELY NOPE", 147, 240);
+}
+};
+</script> 
+ <footer>
+    <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+    <a id="vLink2"><strong> CSS </strong> Valid! </a>
+    </footer>
+</body>
+</html>
