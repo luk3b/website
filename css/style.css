@@ -10,3 +10,15 @@ h1{
     background-color: #ff5757;
     color: #ffafbf;
 }
+.btn {
+    background-color: #98fb98;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 25px;
+    margin: 5px;
+    display: inline-block;
+}
+.btn:hover {
+    background-color: #90ee90;
+}
